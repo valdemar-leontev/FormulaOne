@@ -50,3 +50,7 @@ artifacts/
 # Файлы системных метаданных
 Thumbs.db
 .DS_Store
+
+
+*FormulaOne.DataService/Migrations/
+*app.db
