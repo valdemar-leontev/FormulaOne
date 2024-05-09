@@ -1,0 +1,52 @@
+# Артефакты Visual Studio
+.vs/
+*.suo
+*.user
+*.cache
+*.sln.docstates
+
+# Артефакты Build
+bin/
+obj/
+[Bb]uild/
+*.Build.log
+
+# Артефакты NuGet
+*.nupkg
+*.nuspec
+packages/
+*.psmdcp
+*.sln.ide
+
+# Артефакты Rider/Resharper
+.idea/
+*.iml
+*.ipr
+*.iws
+.ReSharper*/
+resharper.xml
+resharper.shared
+resharper.shared.json
+resharper.user.xml
+
+# Артефакты DotNet Tools
+*.vsix
+.vsconfig
+.vscode/
+*.lock.json
+project.lock.json
+dotnet-tools.json
+
+# Артефакты Publish
+publish/
+artifacts/
+
+# Артефакты User-специфичных файлов
+[Uu]ser[Ss]ettings/
+*.tmp
+*.bak
+*.swp
+
+# Файлы системных метаданных
+Thumbs.db
+.DS_Store
